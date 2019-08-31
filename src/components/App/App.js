@@ -1,12 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Album from "../Album/Album";
+import Dashboard from "../Dashboard/Dashboard";
+import SignIn from "./SignIn/SignIn";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Reactron</h1>
-    </div>
-  );
+  return <Dashboard />;
 }
 
 export default App;
